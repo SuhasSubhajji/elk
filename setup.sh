@@ -3,7 +3,7 @@
 LOGFILE="setup-log.txt"
 ELASTIC_PASSWORD="MySecurePassword123"
 EMAIL="suhas4341@gmail.com"
-DOMAIN="subhajjisuhas.me"
+DOMAIN="elk.subhajjisuhas.me"
 
 log() {
   echo -e "\n\033[1;34m[INFO]\033[0m $1\n" | tee -a "$LOGFILE"
